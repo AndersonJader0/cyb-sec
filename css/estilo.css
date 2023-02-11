@@ -1,0 +1,305 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#area-principal{
+    width: 100%;
+    margin: auto;
+}
+
+.header-top{
+    height: 70px;
+    background: #000000;
+    border-bottom: solid 2px gray;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-nav li{
+    display: inline-block;
+    color: white;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    line-height: 40px;
+}
+
+.header-nav a{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color;
+}
+
+.header-nav a:hover{
+    color: rgb(172, 149, 255);
+    transition-duration: .7s;
+}
+
+main{
+    width: 100%;
+    height: 900px;
+    background-image: url(/images/hackerbackground.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 0;
+}
+
+form label{
+    margin-left: 0%;
+    padding: 0;
+    margin-right: 0;
+}
+
+main p{
+    font-size: 50px;
+    display: block;
+    color: white;
+    font-family: "hacker";
+    padding: 0;
+    margin-bottom: 0px;
+    padding-right: 50px;
+}
+
+main ul{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 50px;
+}
+
+main li{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 0;
+}
+
+main li ul {
+    display: none;
+}
+
+main li:hover ul{
+    display: block;
+}
+
+#main-content{
+    float: right;
+    text-align: left;
+    margin-top: 10%;
+}
+
+
+.gallery{
+    color: #555;
+    margin-top: 0;
+    display: flex;
+}
+
+.gallery2{
+    display: flex;
+}
+
+.gallery-card{
+    width: 33.2%;
+    height: 400px;
+    text-align: center;
+    border: solid rgb(255, 255, 255) 1px;
+    background-color: black;
+    color: white;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0;
+}
+
+
+.gallery-content{
+    width: 100%;
+    height: 20%;
+    margin-top: 0;
+}
+
+#gallery-card1{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+#gallery-card2{
+    widtH: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+#gallery-card3{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+#gallery-card4{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+#gallery-card5{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+#gallery-card6{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 0;
+}
+
+.gallery-card a{
+    text-decoration: none;
+}
+
+.gallery-card a:hover{
+    color: white;
+    transition-duration: .5s;
+}
+
+.gallery-card p{
+    padding: 0;
+    color: #ccc;
+}
+
+.btn{
+    border-radius: 7px;
+    padding: 10px;
+    width: 170px;
+    transition: all 0.6s ease-in-out;
+    box-shadow: inset 0 0 10px;
+    
+}
+
+.gallery-card input:hover{
+    background-color: transparent;
+    transition-duration: 0.7s;
+    color:rgb(172, 149, 255);
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgb(134, 102, 250);
+    border: 2px solid rgb(183, 183, 183);
+    cursor:grab;
+}
+
+.gallery-card:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(0.9);
+}
+
+/* Articles */
+
+#gallery-card1{
+    background-image: url(/images/Spy-background.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+#gallery-card2{
+    background-image: url(/images/Hacker-encapusado-notebook.jpg); 
+    background-size: cover;
+    background-position: bottom;
+}
+
+#gallery-card3{
+    background-image: url(/images/work-gc88504030_1280.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+#gallery-card4{
+    background-image: url(/images/anonymous-g2b7b27c49_1280.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+#gallery-card5{
+    background-image: url(/images/hacker-g92c2d75f8_1280.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+#gallery-card6{
+    background-image: url(/images/malicious-code-g9fcdda53c_1280.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.about h2{
+    text-align: left;
+    padding-top: 80px;
+}
+
+.about{
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 2;
+}
+
+table{
+    color: white;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+td{
+    border: 1px white solid;
+    text-align: center;
+}
+
+.tabela-info{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+th, tfoot td{
+    background-color: gray;
+}
+
+.fundo-table{
+    width: 70%;
+    margin-left: 15%;
+    height: 285px;
+    margin-top: -320px;
+    opacity: 0.2;
+}
+
+.fonte{
+    margin-left: 230px;
+    color: white;
+}
